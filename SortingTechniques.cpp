@@ -113,7 +113,7 @@ int partition(vector<int>& arr, int low, int high) {
 }
 
 void qs(vector<int>&arr, int low, int high){
-    while(low<high){
+    if(low<high){
         int pIndex=partition(arr, low, high);
         qs(arr, low, pIndex-1);
         qs(arr, pIndex+1, high);
@@ -125,13 +125,6 @@ vector<int> quickSort(vector<int>& arr) {
     qs(arr, low, high); // Call the helper function
     return arr;
 }
-
-
-
-
-
-
-
 
 int main(){
     vector<int> arr={3,1,5,2,1,8};
