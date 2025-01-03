@@ -66,7 +66,7 @@ void merge(vector<int>&arr, int low, int mid, int high){
         temp.push_back(arr[r]);
         r++;
     }
-    for(int i=low; i<=high; i++){  //**** 
+    for(int i=low; i<=high; i++){  //**** i=low
         arr[i]=temp[i-low];
     }
 }
@@ -115,7 +115,7 @@ int partition(vector<int>& arr, int low, int high) {
 void qs(vector<int>&arr, int low, int high){
     if(low<high){
         int pIndex=partition(arr, low, high);
-        qs(arr, low, pIndex-1);
+        qs(arr, low, pIndex-1);   //***//pIndex-1
         qs(arr, pIndex+1, high);
     }
 }
