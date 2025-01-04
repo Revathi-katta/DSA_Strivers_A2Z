@@ -1,3 +1,7 @@
+ans.front(), ans.back()- elements at the first and last positions of vector
+ans.begin(), ans.end()- locations of first and **next to last positions of vector
+
+
 // 1752. Check if Array Is Sorted and Rotated
 // Input: nums = [3,4,5,1,2]
 // Output: true
