@@ -1,4 +1,4 @@
-// [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+[746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 // Statement  
 // Given cost of each step, find the minimum cost to reach the top. You can climb either 1 or 2 steps at a time.
@@ -46,7 +46,7 @@ public:
     }
 };
 
-// [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
 // Statement  
 // Given an m x n grid filled with non-negative numbers, find a path from top-left to bottom-right with minimum sum, only moving right or down.
@@ -112,7 +112,7 @@ public:
     }
 };
 
-// [322. Coin Change](https://leetcode.com/problems/coin-change/)
+[322. Coin Change](https://leetcode.com/problems/coin-change/)
 
 // Statement  
 // Given a list of coins and a target amount, return the minimum number of coins needed to make the amount.  
@@ -170,7 +170,7 @@ public:
     }
 };
 
-// [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
+[931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 // Statement  
 // Given a square matrix, find the minimum falling path sum from the top to the bottom.
@@ -232,7 +232,7 @@ public:
     }
 };
 
-// [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
+[983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
 // Statement  
 // You are given a list of travel days and the cost of 1-day, 7-day, and 30-day passes.
